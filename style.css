@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navTop{
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+    background-color: #373737;
+    padding: 0 20pc;
+    color: #FFFFFF;
+}
+
+ul{
+    display: flex;
+    /* gap: 20px; */
+}
+
+li{
+    padding: 10px;
+}
+
+#entradas{
+    background-color: #E7D800;
+    color: black;
+}
+#ES{
+    border: solid 1px white;
+}
+
