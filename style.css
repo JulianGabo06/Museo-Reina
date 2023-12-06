@@ -9,16 +9,16 @@
     justify-content: right ;
     align-items: center;
     background-color: #373737;
-    padding: 0 20pc;
+    padding: 0 24pc;
     color: #FFFFFF;
 }
 
-ul{
+.listaTopNav{
     display: flex;
     /* gap: 20px; */
 }
 
-li{
+.listaTopNav li{
     padding: 10px;
 }
 
@@ -29,4 +29,45 @@ li{
 #ES{
     border: solid 1px white;
 }
+
+#entradas:hover{
+    background-color: aqua;
+}
+
+.navBottom{
+    display: flex;
+    padding: 10px 24pc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerListas{
+    display: flex;
+}
+.centrarLista{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.listaBottomNav{
+    display: flex;
+    gap: 20px;
+}
+
+.Negrilla{
+    font-weight: bold;
+    color: #373737;
+    font-size: 19px;
+}
+
+.gris{
+    font-size: 13px;
+    color: #999999;
+}
+
+.listaBottomNav li{
+    padding: 5px 15px;
+}
+
 
